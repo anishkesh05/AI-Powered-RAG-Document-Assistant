@@ -1,13 +1,4 @@
-Worked for 14s
 
-I analyzed the GitHub repository and the folder structure you shared. The current implementation uses FastAPI + FAISS + Sentence Transformers + Ollama/Llama 3.2 on the backend, with a lightweight HTML/CSS/JavaScript frontend. The RAG flow is: document upload → PDF/TXT extraction → text cleaning/chunking → embeddings → FAISS similarity search → context construction → Llama 3.2 response. 
-G
-GitHub
-+3
-
-One important point: the GitHub repository currently shows the files at the repository root, while your local structure separates them into Backend/ and Frontend/. The README below follows your intended folder structure, which is cleaner and more professional. 
-G
-GitHub
 
 🤖 AI-Powered RAG Document Assistant
 <p align="center"> <strong>Chat with your documents using Retrieval-Augmented Generation, semantic search, and a local LLM.</strong> </p> <p align="center"> <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/FAISS-Vector%20Search-0467DF?style=for-the-badge" alt="FAISS"> <img src="https://img.shields.io/badge/Ollama-Llama%203.2-black?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"> <img src="https://img.shields.io/badge/RAG-AI%20Pipeline-8A2BE2?style=for-the-badge" alt="RAG"> </p> <p align="center"> <a href="https://github.com/anishkesh05/AI-Powered-RAG-Document-Assistant"> <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository"> </a> </p>
