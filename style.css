@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    /* Indian flag colours */
+    background: linear-gradient(
+        to bottom,
+        #FF9933 0%,
+        #FF9933 33%,
+        #FFFFFF 33%,
+        #FFFFFF 66%,
+        #138808 66%,
+        #138808 100%
+    );
+
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #000080;
+}
+
+.subtitle {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #FFFFFF;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-top: 5px solid #FF9933;
+    border-bottom: 5px solid #138808;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    margin-top: 0;
+    color: #000080;
+}
+
+input[type="file"] {
+    margin: 15px 0;
+    display: block;
+}
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #138808;
+    border-radius: 6px;
+    resize: vertical;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #000080;
+}
+
+button {
+    background: #138808;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #FF9933;
+    color: #000080;
+}
+
+#uploadStatus {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000080;
+}
+
+#answer {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #000080;
+    min-height: 80px;
+    line-height: 1.6;
+}
